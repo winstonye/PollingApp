@@ -22,7 +22,7 @@ app.use(cors());
 
 app.use('/poll', poll);
 
-const port = 3000;
+const port = 80;
 
 // Start Server
 app.listen(port, ()=> console.log(`Server started on port ${port}`))
